@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Indian Mains</title>
+    <link rel="stylesheet" href="../../style_trial.css">
+</head>
+<body>
+	<header>
+		<h1>Indian Mains</h1>
+		<!-- Add a menu bar with 3 lines as the logo -->
+		<div class="menu-bar" onclick="openNav()">
+      <div class="menu-bar-line"></div>
+      <div class="menu-bar-line"></div>
+      <div class="menu-bar-line"></div>
+    </div>
+    <!-- Add a side navigation menu -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="../../index.html">Home</a>
+        <a href="../../appetisers/appetisers.html">Appetisers</a>
+        <a href="../mains.html">Mains</a>
+    </div>
+
+	</header>
+	<main>
+        <section class="recipes">
+            <div class="recipe">
+              <a href="palak-paneer/palak-paneer-recipe.html">
+                <img src="palak-paneer/palak-paneer-image.png" alt="Palak Paneer">
+                <h3>Palak Paneer</h3>
+              </a>
+            </div>
+
+             
+            <!-- add more recipe boxes here -->
+        </section>
+
+	</main>
+
+    <script>
+		// Add JavaScript code here for interactive elements
+		
+		// Open the side navigation menu
+		function openNav() {
+		  document.getElementById("mySidenav").style.width = "250px";
+		}
+  
+		// Close the side navigation menu
+		function closeNav() {
+		  document.getElementById("mySidenav").style.width = "0";
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--meta charset="UTF-8"-->
+	<title>Vaishu ka Dhaba</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Vaishu ka Dhaba</h1>
+		<!-- Add a menu bar with 3 lines as the logo -->
+		<div class="menu-bar" onclick="openNav()">
+		  <div class="menu-bar-line"></div>
+		  <div class="menu-bar-line"></div>
+		  <div class="menu-bar-line"></div>
+		</div>
+		<!-- Add a side navigation menu -->
+		<div id="mySidenav" class="sidenav">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <a href="appetisers/appetisers.html">Appetisers</a>
+		  <a href="mains/mains.html">Mains</a>
+		</div>
+	</header>
+	<main>
+		<p>Welcome to my recipe website! Please choose a category from the navigation menu.</p>
+	</main>
+	<script>
+		// Add JavaScript code here for interactive elements
+		
+		// Open the side navigation menu
+		function openNav() {
+		  document.getElementById("mySidenav").style.width = "250px";
+		}
+  
+		// Close the side navigation menu
+		function closeNav() {
+		  document.getElementById("mySidenav").style.width = "0";
+		}
+	</script>
+</body>
+</html>
