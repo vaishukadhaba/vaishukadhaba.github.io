@@ -2,7 +2,7 @@
 body {
   font-family: sans-serif;
   font-size: 20px;
-  background-color: #f5f5f5;
+  background-color: #506e57;
 }
 
 /* Mobile styles */
@@ -27,7 +27,8 @@ main {
 h1 {
   font-size: 36px;
   text-align: center;
-  margin-top: 0;
+  margin-top: 50vh;
+  color: #fdf0cd;
 }
 
 /* style the ingredients and instructions lists */
