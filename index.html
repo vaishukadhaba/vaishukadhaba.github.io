@@ -6,23 +6,26 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<!-- Add a menu bar with 3 lines as the logo -->
+	<div class="menu-bar" onclick="openNav()">
+		<div class="menu-bar-line"></div>
+		<div class="menu-bar-line"></div>
+		<div class="menu-bar-line"></div>
+	</div>
+	<!-- Add a side navigation menu -->
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="index.html">Home</a>
+		<a href="appetisers/appetisers.html">Appetisers</a>
+		<a href="mains/mains.html">Mains</a>
+	</div>
 	<header>
 		<h1>Vaishu ka Dhaba</h1>
-		<!-- Add a menu bar with 3 lines as the logo -->
-		<div class="menu-bar" onclick="openNav()">
-		  <div class="menu-bar-line"></div>
-		  <div class="menu-bar-line"></div>
-		  <div class="menu-bar-line"></div>
-		</div>
-		<!-- Add a side navigation menu -->
-		<div id="mySidenav" class="sidenav">
-		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		  <a href="appetisers/appetisers.html">Appetisers</a>
-		  <a href="mains/mains.html">Mains</a>
-		</div>
 	</header>
+	
+	
 	<main>
-		<p>Welcome to my recipe website! Please choose a category from the navigation menu.</p>
+		<p>Original Recipes by Vaishnavi Gupta</p>
 	</main>
 	<script>
 		// Add JavaScript code here for interactive elements

@@ -10,62 +10,109 @@ body {
     body {
         font-family: sans-serif;
         font-size: 40px;
-        background-color: #f5f5f5;
+        background-color: #506e57;
     }
 }
 
 /* center the main content area on the page */
 main {
-  max-width: 800px;
+  /* max-width: 800px;
   margin: 0 auto;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 40px; */
+  text-align: center;
+  color: #c1d1a9;
+  font-size: 24px;
+  margin-top: 10vh;
+  /* background-color: #fff; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
 /* style the recipe title */
 h1 {
-  font-size: 36px;
+  font-size: 64px;
   text-align: center;
-  margin-top: 50vh;
+  margin-top: 30vh;
   color: #fdf0cd;
 }
 
-/* style the ingredients and instructions lists */
-ul {
-  list-style: none;
-  padding: 0;
+h2 {
+    font-size: 52px;
+    text-align: center;
+    margin-top: 10vh;
+    color: #fdf0cd;
 }
 
-/* add some spacing between the list items */
+h3 {
+    font-size: 36px;
+    text-align: left;
+    margin-top: 10vh;
+    color: #fdf0cd;
+    /* padding-left: 10%; */
+    padding: 0% 10%;
+}
+
+ul {
+  list-style: none;
+  padding: 0% 5%;
+  text-align: left;
+}
+
+ol {
+    padding: 0% 5%;
+    text-align: left;
+}
+
+
 li {
   margin-bottom: 5px;
+  padding: 0% 5%;
+  text-align: left;
 }
+
+
+h4 {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    padding: 0% 5%;
+    text-align: left;
+    font-size: 24px;
+    color: #fdf0cd;
+    font-weight: bold;
+}
+
+img {
+    align-items: right;
+    padding-right: 10%;
+}
+
+
+
 
 
 /* Style the menu bar icon */
 .menu-bar {
     display: block;
     cursor: pointer;
-    margin: 1rem;
+    margin: 20px 10px;
 }
   
 /* Style the menu bar lines */
 .menu-bar-line {
     width: 30px;
     height: 3px;
-    background-color: #000;
+    background-color: #fdf0cd;
     margin: 5px 0;
 }
   
 /* Style the side navigation menu */
 .sidenav {
     width: 0;
+    height: 100vh;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #fff;
+    background-color: #fdf0cd;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -82,16 +129,19 @@ li {
   
 /* Style the links on the side navigation menu */
 .sidenav a {
+    font-size: 24px;
     display: block;
-    padding: 8px 8px 8px 32px;
+    /* padding: 8px 8px 8px 8px; */
+    text-align: center;
     text-decoration: none;
-    color: #818181;
+    color: #506e57;
     transition: 0.3s;
+    padding-bottom: 10%;
 }
   
 /* Style the links on the side navigation menu when hovered over */
 .sidenav a:hover {
-    color: #f1f1f1;
+    color: #c1d1a9;
 }
   
 /* Add the Indian pattern to the side of the webpage */
@@ -121,11 +171,13 @@ li {
 }
 
 .recipe {
-    width: 300px;
+    width: 100%;
     margin-bottom: 30px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     overflow: hidden;
+    
+    
 }
 
 .recipe a {
@@ -144,8 +196,8 @@ li {
     padding: 20px;
     font-size: 24px;
     text-align: center;
-    background-color: #F8F8F8;
-    color: #333;
+    background-color: #fdf0cd;
+    color: #506e57;
 }
   
 .recipe:hover {

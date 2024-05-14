@@ -3,31 +3,32 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Appetisers</title>
-    <link rel="stylesheet" href="../style_trial.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
+  <!-- Add a menu bar with 3 lines as the logo -->
+  <div class="menu-bar" onclick="openNav()">
+    <div class="menu-bar-line"></div>
+    <div class="menu-bar-line"></div>
+    <div class="menu-bar-line"></div>
+  </div>
+  <!-- Add a side navigation menu -->
+  <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="../index.html">Home</a>
+      <a href="appetisers.html">Appetisers</a>
+      <a href="../mains/mains.html">Mains</a>
+  </div>
 	<header>
-		<h1>Appetisers</h1>
-		<!-- Add a menu bar with 3 lines as the logo -->
-		<div class="menu-bar" onclick="openNav()">
-      <div class="menu-bar-line"></div>
-      <div class="menu-bar-line"></div>
-      <div class="menu-bar-line"></div>
-    </div>
-    <!-- Add a side navigation menu -->
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="../index.html">Home</a>
-        <a href="appetisers.html">Appetisers</a>
-        <a href="../mains/mains.html">Mains</a>
-    </div>
+		<h2>Appetisers</h2>
+		
 
 	</header>
 	<main>
         <section class="recipes">
             <div class="recipe">
               <a href="surti-petis/surti-petis-recipe.html">
-                <img src="surti-petis/surti-petis-image.png" alt="Surti Petis">
+                <!-- <img src="surti-petis/surti-petis-image.png" alt="Surti Petis"> -->
                 <h3>Surti Petis</h3>
               </a>
             </div>
