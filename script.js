@@ -1,18 +1,18 @@
-// get a reference to the button
-const toggleButton = document.querySelector('#toggle-ingredients');
-  
-// get a reference to the ingredients list
-const ingredientsList = document.querySelector('#ingredients-list');
-  
-// add a click event listener to the button
-toggleButton.addEventListener('click', function() {
-  // toggle the 'hidden' class on the ingredients list
-  ingredientsList.classList.toggle('hidden');
-    
-  // update the text of the button
-  if (ingredientsList.classList.contains('hidden')) {
-    toggleButton.textContent = 'Show Ingredients';
-  } else {
-    toggleButton.textContent = 'Hide Ingredients';
+// Add JavaScript code here for interactive elements
+		
+// Open the side navigation menu
+
+function openNav() {
+  console.log(`The innerwidth is ${window.innerWidth} `)
+    if (window.innerWidth <= 1300) {
+          document.getElementById("mySidenav").style.width = "100%";
+
+      } else {
+          document.getElementById("mySidenav").style.width = "250px";
+      }
   }
-});
+
+  // Close the side navigation menu
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }

@@ -14,7 +14,7 @@
   </div>
   <!-- Add a side navigation menu -->
   <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</div>
       <a href="../index.html">Home</a>
       <a href="../appetisers/appetisers.html">Appetisers</a>
       <a href="mains.html">Mains</a>
@@ -31,6 +31,12 @@
                 <h3>Indian</h3>
               </a>
             </div>
+            <div class="recipe">
+              <a href="italian-mains/italian-mains.html">
+                <!-- <img src="indian-mains-image.jpg" alt="Indian Mains"> -->
+                <h3>Italian</h3>
+              </a>
+            </div>
 
              
             <!-- add more recipe boxes here -->
@@ -38,18 +44,6 @@
 
 	</main>
 
-    <script>
-		// Add JavaScript code here for interactive elements
-		
-		// Open the side navigation menu
-		function openNav() {
-		  document.getElementById("mySidenav").style.width = "250px";
-		}
-  
-		// Close the side navigation menu
-		function closeNav() {
-		  document.getElementById("mySidenav").style.width = "0";
-		}
-	</script>
+  <script src = "../script.js"></script>
 </body>
 </html>
